@@ -35641,7 +35641,7 @@ tk(a){return this.a4M(a)},
 a4M(a){var s=0,r=A.a1(t.A5),q,p
 var $async$tk=A.a2(function(b,c){if(b===1)return A.Z(c,r)
 while(true)switch(s){case 0:s=3
-return A.a5(A.ajQ(A.iC("https://esportal.com/api/match/get?_="+Date.now()+"&id="+a)),$async$tk)
+return A.a5(A.ajQ(A.iC("https://esportal.bitti.io/api/match/get?_="+Date.now()+"&id="+a)),$async$tk)
 case 3:p=c
 if(p.b===200){q=A.arw(B.aJ.yP(0,A.ajG(J.aK(A.aiN(p.e).c.a,"charset")).cZ(0,p.w),null))
 s=1
@@ -35653,7 +35653,7 @@ oy(a){return this.a4L(a)},
 a4L(a){var s=0,r=A.a1(t.wb),q,p
 var $async$oy=A.a2(function(b,c){if(b===1)return A.Z(c,r)
 while(true)switch(s){case 0:s=3
-return A.a5(A.ajQ(A.iC("https://esportal.com/api/user_profile/get_favorite_maps?_="+Date.now()+"&id="+a)),$async$oy)
+return A.a5(A.ajQ(A.iC("https://esportal.bitti.io/api/user_profile/get_favorite_maps?_="+Date.now()+"&id="+a)),$async$oy)
 case 3:p=c
 if(p.b===200){q=A.aqN(B.aJ.yP(0,A.ajG(J.aK(A.aiN(p.e).c.a,"charset")).cZ(0,p.w),null))
 s=1
